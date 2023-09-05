@@ -17,13 +17,3 @@ export default combineReducers({
   dishes: dishReducer,
   comments: commentReducer,
 });
-// export const Reducer = (state = initialState, action) => {
-//   if (action.type === "CREATE_COMMENT") {
-//     action.payload.id = state.comments.length;
-//     return {
-//       ...state,
-//       comments: [...state.comments, action.payload],
-//     };
-//   }
-//   return state;
-// };
